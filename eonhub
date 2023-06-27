@@ -1,0 +1,683 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+OrionLib:MakeNotification({
+	Name = "Universal Script loader CRACKED BY BACKUP",
+	Content = "made by backup#6002",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+OrionLib:MakeNotification({
+	Name = "Joint scripthub",
+	Content = "https://discord.gg/productions",
+	Image = "rbxassetid://13762461264",
+	Time = 10
+})
+
+local Window = OrionLib:MakeWindow({Name = "Universal script loader", HidePremium = false,IntroText = "Universal Script Loader", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Credits / info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddParagraph("Credits","Made by Backup#6002                                                                       joint our discord backup#6002 for get the new updates of the script: https://discord.gg/productions                                                                                                                     note: if the script is gone, u can re execute it :)")
+
+Tab:AddParagraph("⚠️Warning","Execute the script for the appropraite game! AND EXECUTE IT ONE TIME! SO DONT SPAM IT (if u execute the wrong script u can got kick/banned) im not responsabe for any ban! 🤕")
+
+Tab:AddParagraph("Updates:","version CRACKED EONHUB                                                                               [=]New scripts is comming")
+
+Tab:AddButton({
+	Name = "Copy Discord server link",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "link succesfly copied to clipboard",
+	Content = ":)",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+})
+	setclipboard("https://discord.gg/productions")
+    toclipboard("https://discord.gg/productions")
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Aimbots",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Aimbots"
+})
+
+
+Tab:AddParagraph("Note:","Some aimbots are for pc !")
+
+Tab:AddButton({
+	Name = "Aimbot universal (pc)",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Aimbot universal (pc)",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://pastebin.com/raw/GvKGSS0G"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Aimbot universal (mobile)",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Aimbot universal (mobile)",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Brookhaven",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Brookhaven scripts"
+})
+
+Tab:AddButton({
+	Name = "Ice Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed iceHub Brookhaven",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+      		print (loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Meteon Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Meteon Hub Brookhaven",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/Hydro4Music/MeteonHub/ad8bbba8b8e492674c382b7992f05ce7fa130e87/Brookhaven"))())
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Prison Life",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "prison life scripts"
+})
+
+Tab:AddButton({
+	Name = "Trigger admin OP",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Trigger admin prison life",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})      		
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "X-RAWNDER",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed X-RAWNDER prison life",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://paste.website/p/de73cd18-5fa1-4848-8ce6-463de9a0ef92.txt"))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "DaHood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Da hood scripts"
+})
+
+Tab:AddButton({
+	Name = "Swag mode",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Swag Mode DaHood",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))())      	
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Agent X",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed AgentX DaHood",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/mrhackerman35297/AgentCC/main/Launch.lua"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ray X",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed RayX DaHood",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Faded",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Faded DaHood",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "RayCodex",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed RayCodex DaHood",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Pet Sim X",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Pet Simulator X scripts"
+})
+
+Tab:AddButton({
+	Name = "Skays",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Skays Pet sim X (wait a few second for load)",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/dT4Cs1Fq'))())
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "breaking point",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Breaking point scripts"
+})
+
+Tab:AddButton({
+	Name = "Inf Point autofarm",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed InfPoints Breaking Point",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/2vsh/breakingpoint/main/mainscript.lua'))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "tkorra bp gui (pc only)",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed tkorra bp gui breaking point(pc only)",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/tkorra/bp-gui/main/main.lua'))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Buster gui",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Buster gui Breaking Point",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax",true))())
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Drive world",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Drive world scripts"
+})
+
+Tab:AddButton({
+	Name = "Fall Angel Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Fall Angel Hub Drive World",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/FallAngelHub/main/DriveWorld.lua"))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Murder Mystery 2 scripts"
+})
+
+Tab:AddButton({
+	Name = "Eclipse Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Eclipse Hub MM2",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://pastebin.com/raw/gZH7sjgq"))())
+  	end    
+})
+
+Tab:AddParagraph("","Note: Eclipse hub dont support some executor ! ⚠️And can crashing sometimes")
+
+Tab:AddButton({
+	Name = "Lunar Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed LunarHub MM2",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Copy LunarHub Key",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "succesfly copied key to clipboard",
+	Content = ":)",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+})
+	setclipboard("lunarhubnicebye")
+    toclipboard("lunarhubnicebye")
+	end
+})
+
+Tab:AddParagraph("","key for lunarhub script is: lunarhubnicebye")
+
+Tab:AddButton({
+	Name = "Drifter0507 MM2 GUI",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Drifter0507 MM2 GUI",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202")()))
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Blox Fruits scripts"
+})
+
+Tab:AddButton({
+	Name = "Domadic hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Domadic hub Blox Fruits",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "HALOxHUB",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed HALOxHUB Blox Fruits ",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet'https://raw.githubusercontent.com/HALOxHUB/ScriptLoader/main/Loader.lua')())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "DOORS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "DOORS Scripts"
+})
+
+Tab:AddButton({
+	Name = "Poop hub Doors",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Poop DOORS",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Vynixius",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Vynixius DOORS",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Bedwars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Bed Wars Scripts"
+})
+
+Tab:AddButton({
+	Name = "Vape V4",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Vape V4 BedWars",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Skywars",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Skeywars Scripts"
+})
+
+Tab:AddButton({
+	Name = "SkyWars gui thing",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed SkyWars gui thing lol",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/Loadstring9VHD6Wmyi82n", true))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Arsenal Scripts"
+})
+
+Tab:AddButton({
+	Name = "Bolts Hub V5 (super OP)",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Bolts Hub V5 Arsenal",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main"))())
+  	end    
+})
+
+Tab:AddParagraph("⚠️WARNING⚠️","DONT USE KILL ALL FEATURE, THIS CAN MAKE U BANNED !")
+
+local Tab = Window:MakeTab({
+	Name = "MadCity",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Mad City Scripts"
+})
+
+Tab:AddButton({
+	Name = "Ruby Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Ruby Hub Mad city (wait a few second to be loaded)",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/main/main/RubyHub.lua", true))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "build a boat",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+Name = "build a boat for treasure scripts"
+})
+
+Tab:AddButton({
+	Name = "build a boat for treasure.exe",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed build a boat for treasure.exe",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Fishing simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Fishing simulator Scripts"
+})
+
+Tab:AddButton({
+	Name = "SLH Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed SLH Hub Fishing simulator",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/SmellLikeHacker/MyEdit/main/Hub"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "AnSit Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed AnSit Hub Fishing simulator",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/AnSitDz/AnSitHub/main/FishingSimulator"))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Tower Defence Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Tower Defence Simulator Scripts"
+})
+
+Tab:AddButton({
+	Name = "Nicuse Hub",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Nicuse Hub Tower Defence Simulator",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/TowerDefenseSimulator.lua', true))())
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Evade",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Evade Scripts"
+})
+
+Tab:AddButton({
+	Name = "Hydra Network",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Hydra Network Evade",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://pastebin.com/raw/6BbcWQJs"))())
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ominous Vibes Exploits",
+	Callback = function()
+	OrionLib:MakeNotification({
+	Name = "Executed !",
+	Content = "Succesfly executed Ominous Vibes Exploits Evade",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+      		print(loadstring(game:HttpGet("https://pastebin.com/raw/rEVZfaN9"))())
+  	end    
+})
+
+
+
+OrionLib:Init()
